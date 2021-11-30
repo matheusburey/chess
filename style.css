@@ -1,0 +1,24 @@
+body, h1 {
+    margin: 0;
+}
+body {
+    background-color: #eeeeee;
+    text-align:center;
+}
+
+#screen {
+    border: 1px solid #CCC;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    width: 550px;
+    height: 550px;
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.19);
+    box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.19);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
